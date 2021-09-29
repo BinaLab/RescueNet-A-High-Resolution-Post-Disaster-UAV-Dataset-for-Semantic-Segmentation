@@ -1,0 +1,10 @@
+background
+debris
+water
+building
+building-total-destruction
+vehicle
+road
+tree
+pool
+sand
