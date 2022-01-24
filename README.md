@@ -11,7 +11,7 @@ RescueNet provides high-resolution UAS imageries with detailed semantic annotati
 
 ## Dataset Details
 
-The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Harvey. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Debris, 3) Water, 4)Building No Damage, 5) Building Minor Damage, 6) Building Major Damage, 7) Buidling Total Destruction, 8) Road, 9)Vehicle, 10) Tree, 11) Pool, 12) Sand. 
+The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Michael. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Debris, 3) Water, 4)Building No Damage, 5) Building Minor Damage, 6) Building Major Damage, 7) Buidling Total Destruction, 8) Road, 9)Vehicle, 10) Tree, 11) Pool, 12) Sand. 
 
 The dataset can be downloaded from this link: https://drive.google.com/drive/folders/1XNgPVmiu9egr1fywgNeXfnxojFOe_INT?usp=sharing
 
