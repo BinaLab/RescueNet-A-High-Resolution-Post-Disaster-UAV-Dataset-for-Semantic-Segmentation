@@ -19,3 +19,18 @@ The dataset can be downloaded from this link: https://drive.google.com/drive/fol
 
 This dataset is released under the [Community Data License Agreement (permissive)](https://cdla.io/permissive-1-0/).
 
+### Paper Link
+The paper can be downloaded from this [link](https://arxiv.org/pdf/2202.12361.pdf).
+Please cite our paper when using the dataset
+
+ ```
+ 
+@article{chowdhury2022rescuenet,
+  title={RescueNet: A High Resolution UAV Semantic Segmentation Benchmark Dataset for Natural Disaster Damage Assessment},
+  author={Chowdhury, Tashnim and Murphy, Robin and Rahnemoonfar, Maryam},
+  journal={arXiv preprint arXiv:2202.12361},
+  year={2022}
+}
+
+```
+
