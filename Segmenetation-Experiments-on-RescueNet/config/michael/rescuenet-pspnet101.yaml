@@ -1,0 +1,70 @@
+DATA:
+  data_root: dataset/RescueNet
+  train_list: dataset/cityscapes/list/fine_train.txt
+  val_list: dataset/cityscapes/list/fine_val.txt
+  classes: 11
+
+TRAIN:
+  arch: pspnet
+  layers: 101
+  use_pretrained_weights: True # to indicate whether the model will use pre-trained weights or not
+  dataset: rescuenet # @sh : new param
+  sync_bn: True  # adopt syncbn or not
+  train_h: 713 #1024 
+  train_w: 713 #1024 #713
+  scale_min: 0.5  # minimum random scale
+  scale_max: 2.0  # maximum random scale
+  rotate_min: -10  # minimum random rotate
+  rotate_max: 10  # maximum random rotate
+  zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
+  ignore_label: 255
+  aux_weight: 0.4
+  train_gpu: [0]
+  workers: 4  # data loader workers
+  batch_size: 2  # batch size for training
+  batch_size_val: 1  # batch size for validation during training, memory and speed tradeoff
+  base_lr: 0.001
+  epochs: 100
+  start_epoch: 0
+  power: 0.9
+  momentum: 0.9
+  weight_decay: 0.00001
+  manual_seed:
+  print_freq: 10
+  save_freq: 1
+  save_path: exp/RescueNet/pspnet101/model
+  weight:  # path to initial weight (default: none)
+  resume:  # path to latest checkpoint (default: none)
+  evaluate: False  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend
+Distributed:
+  dist_url: tcp://127.0.0.1:6789
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
+  use_apex: True
+  opt_level: 'O0'
+  keep_batchnorm_fp32:
+  loss_scale:
+
+TEST:
+  test_list: dataset/michael/list/test_img_list.txt
+  split: val  # split in [train, val and test]
+  mode: vis  # [test, vis], test=for numeric result, vis=for visual resutls
+  predict_color: True
+  base_size: 2048  # based size for scaling
+  test_h: 713
+  test_w: 713
+  scales: [1.0]  # evaluation scales, ms as [0.5, 0.75, 1.0, 1.25, 1.5, 1.75]
+  has_prediction: False  # has prediction already or not
+  index_start: 0  # evaluation start index in list
+  index_step: 0  # evaluation step index in list, 0 means to end
+  test_gpu: [0]
+  model_path: # evaluation model path
+  save_folder: # results save folder
+  imshow_batch: True # [True, False], True=for visual result, False=for numeric result
+  device: cuda
+  ignore_unlabeled: True
+  print_step: False
+  output: outputs
+  dataset_dir: dataset/RescueNet
