@@ -6,4 +6,4 @@ Single-GPU evaluation is supported. To evaluate a model on RescueNet, modify the
 
 
 ## References
-This repo is mainly built based on [Official PSPNet](https://github.com/hszhao/semseg), and [Segmenter](https://github.com/rstrudel/segmenter. Thanks for their great work!
+This repo is mainly built based on [Official PSPNet](https://github.com/hszhao/semseg), and [Segmenter](https://github.com/rstrudel/segmenter). Thanks for their great work!
