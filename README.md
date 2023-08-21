@@ -6,12 +6,14 @@ Frequent, and increasingly severe, natural disasters threaten human health, infr
 
 RescueNet provides high-resolution UAS imageries with detailed semantic annotation regarding the damages.
 
-![alt text](https://github.com/tashnimchowdhury/RescueNet-A-High-Resolution-Post-Disaster-UAV-Dataset-for-Semantic-Segmentation/blob/main/example-rescuenet-all-cls.PNG?raw=true)
+![alt text](https://github.com/tashnimchowdhury/RescueNet-A-High-Resolution-Post-Disaster-UAV-Dataset-for-Semantic-Segmentation/blob/main/example-rescuenet-all-cls.png?raw=true)
 
 
 ## Dataset Details
 
-The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Michael. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Debris, 3) Water, 4)Building No Damage, 5) Building Minor Damage, 6) Building Major Damage, 7) Buidling Total Destruction, 8) Road, 9)Vehicle, 10) Tree, 11) Pool, 12) Sand. 
+The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Michael. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Water, 3)Building No Damage, 4) Building Minor Damage, 5) Building Major Damage, 6) Buidling Total Destruction, 7) Road-Clear, 8) Road-Blocked, 9)Vehicle, 10) Tree, 11) Pool. 
+
+Dataset download link will be available in the upcoming paper.
 
  <!--  
 The dataset can be downloaded from this link: https://drive.google.com/drive/folders/1XNgPVmiu9egr1fywgNeXfnxojFOe_INT?usp=sharing
@@ -22,6 +24,8 @@ The dataset can be downloaded from this link: https://drive.google.com/drive/fol
 This dataset is released under the [Community Data License Agreement (permissive)](https://cdla.io/permissive-1-0/).
 
 ### Paper Link
+The paper link will be updated soon. 
+ <!-- 
 The paper can be downloaded from this [link](https://arxiv.org/pdf/2202.12361.pdf).
 Please cite our paper when using the dataset
 
@@ -33,6 +37,7 @@ Please cite our paper when using the dataset
   journal={arXiv preprint arXiv:2202.12361},
   year={2022}
 }
+-->
 
 ```
 
