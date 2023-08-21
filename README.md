@@ -6,7 +6,7 @@ Frequent, and increasingly severe, natural disasters threaten human health, infr
 
 RescueNet provides high-resolution UAS imageries with detailed semantic annotation regarding the damages.
 
-![alt text](https://github.com/tashnimchowdhury/RescueNet-A-High-Resolution-Post-Disaster-UAV-Dataset-for-Semantic-Segmentation/blob/main/example-rescuenet-all-cls.png?raw=true)
+![alt text](https://github.com/tashnimchowdhury/RescueNet-A-High-Resolution-Post-Disaster-UAV-Dataset-for-Semantic-Segmentation/blob/main/example-rescuenet-all-cls.PNG?raw=true)
 
 
 ## Dataset Details
