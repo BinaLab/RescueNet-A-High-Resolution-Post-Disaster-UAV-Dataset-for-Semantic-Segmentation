@@ -21,7 +21,7 @@ The dataset can be downloaded from this link: https://drive.google.com/drive/fol
 -->
 ## License
 
-This dataset is released under the [Community Data License Agreement (permissive)](https://cdla.io/permissive-1-0/).
+This dataset is released under the [Creative Common License CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ### Paper Link
 The paper link will be updated soon. 
