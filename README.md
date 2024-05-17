@@ -11,14 +11,15 @@ RescueNet provides high-resolution UAS imageries with detailed semantic annotati
 
 ## Dataset Details
 
-The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Michael. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Water, 3)Building No Damage, 4) Building Minor Damage, 5) Building Major Damage, 6) Buidling Total Destruction, 7) Road-Clear, 8) Road-Blocked, 9)Vehicle, 10) Tree, 11) Pool. 
-
-Dataset download link is available in the paper.
+The data is collected with a small UAS platform, DJI Mavic Pro quadcopters, after Hurricane Michael. The whole dataset has 4494 images, divided into training (~80%), validation (~10%), and test (~10%) sets. The semantic segmentation labels include: 1) Background, 2) Water, 3)Building No Damage, 4) Building Minor Damage, 5) Building Major Damage, 6) Buidling Total Destruction, 7) Road-Clear, 8) Road-Blocked, 9)Vehicle, 10) Tree, 11) Pool.
 
  <!--  
 The dataset can be downloaded from this link: https://drive.google.com/drive/folders/1XNgPVmiu9egr1fywgNeXfnxojFOe_INT?usp=sharing
 
 -->
+
+The dataset can be downloaded from: [Dropbox](https://www.dropbox.com/scl/fo/ntgeyhxe2mzd2wuh7he7x/AHJ-cNzQL-Eu04HS6bvBgcw?rlkey=6vxiaqve9gp6vzvzh3t5mz0vv&e=1&dl=0) or [figshare](https://springernature.figshare.com/collections/RescueNet_A_High_Resolution_UAV_Semantic_Segmentation_Benchmark_Dataset_for_Natural_Disaster_Damage_Assessment/6647354/1)
+
 ## License
 
 This dataset is released under the [Creative Common License CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/).
